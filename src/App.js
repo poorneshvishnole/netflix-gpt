@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.css";
+import Login from "./components/Login";
+import Body from "./components/Body";
 
 const App = () => {
-  return <div className="text-3xl text-red-400 font-bold">App</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 };
 
 export default App;
